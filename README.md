@@ -1,3 +1,22 @@
+# libsecret
+
+![Mirror](https://img.shields.io/badge/mirror-read--only-blue)
+![Upstream](https://img.shields.io/badge/upstream-gitlab.gnome.org%2FGNOME%2Flibsecret-orange)
+![License](https://img.shields.io/badge/license-LGPL--2.1-green)
+
+> ## 🔗 Fork / mirror note
+>
+> This repository is a **read-only mirror** of the GNOME project:
+> [`https://gitlab.gnome.org/GNOME/libsecret`](https://gitlab.gnome.org/GNOME/libsecret)
+>
+> - Contributions, bug reports, and merge requests go **upstream** (GitLab), not here.
+> - Upstream project README, build docs, and contributing guidance are preserved
+>   verbatim below.
+> - No local divergences from upstream have been recorded in this mirror.
+> - Nightly documentation: <https://gnome.pages.gitlab.gnome.org/libsecret/>
+
+---
+
 libsecret
 =========
 
@@ -64,3 +83,15 @@ version number is even or odd.
 [issue tracker]: https://gitlab.gnome.org/GNOME/libsecret/issues
 [translation project Welcome page]: https://welcome.gnome.org/team/translation/
 [semantic versioning]: https://semver.org
+
+---
+
+## Security
+
+libsecret is a credential store — see the freedesktop [secret service] spec for
+the protocol. Vulnerability reports go **upstream** per the GNOME security
+policy; this mirror is not the right place to file them.
+
+## License
+
+LGPL-2.1 — see [`COPYING`](COPYING) in this repo (upstream license file).
